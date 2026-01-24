@@ -1,7 +1,8 @@
 import { read, write } from '../utils/sensorFile.js';
 import { AppError } from '../errors/AppError.js';
-import { appDataSource } from '../database/dataSource.js';
-import Sensor from '../entities/Sensor.js';
+import { appDataSource } from '../database/appDataSource.js';
+import  { Sensor } from '../entities/Sensor.js';
+
 
 class SensorService {
     private fileName = 'sensor.json';
