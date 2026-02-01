@@ -1,24 +1,24 @@
 {
-"compilerOptions": {
-"module": "nodenext",
-"target": "esnext",
-"types": [],
-
-"emitDecoratorMetadata": true,
-"experimentalDecorators": true,
-"strictPropertyInitialization": false,
-
-"sourceMap": true,
-"declaration": true,
-"declarationMap": true,
-"noUncheckedIndexedAccess": true,
-"exactOptionalPropertyTypes": true,
-"strict": true,
-"jsx": "react-jsx",
-"verbatimModuleSyntax": true,
-"isolatedModules": true,
-"noUncheckedSideEffectImports": true,
-"moduleDetection": "force",
-"skipLibCheck": true,
-}
+  "compilerOptions": {
+    "module": "nodenext",
+    "target": "esnext",
+    "outDir": "./dist",         
+    "rootDir": "./src",         
+    "types": [],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "strict": true,
+    "verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    "moduleDetection": "force",
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"],      
+  "exclude": ["node_modules", "dist"]
 }
