@@ -47,6 +47,10 @@ app.use(compression({ threshold: 1024 }))
 
 app.use('/api', indexRouter);
 
+app.get('/health', (req, res) => {
+    res.status(200).json({ status: 'ok' });
+})
+
 app.use(errorHandler)
 
 // Tentando se conectar com o banco de dados

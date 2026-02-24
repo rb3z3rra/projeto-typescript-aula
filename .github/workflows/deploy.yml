@@ -1,0 +1,52 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: self-hosted
+
+    steps:
+      - name: 📥 Checkout do código
+        uses: actions/checkout@v4
+
+      - name: 🔐 Login no GitHub Container Registry
+        run: |
+          echo "${{ secrets.GHCR_TOKEN }}" | docker login ghcr.io -u ${{ github.actor }} --password-stdin
+
+      - name: 🏗️ Build da imagem
+        run: |
+          docker build -t ghcr.io/${{ github.repository_owner }}/pratica-dock:latest .
+
+      - name: 📤 Push pro ghcr.io
+        run: |
+          docker push ghcr.io/${{ github.repository_owner }}/pratica-dock:latest
+
+      - name: 🛑 Remove container antigo
+        run: |
+          docker stop pratica-dock || true
+          docker rm pratica-dock || true
+
+      - name: 🚀 Sobe novo container
+        run: |
+          docker run -d \
+            --name pratica-dock \
+            --network fullstack-indt \
+            -p 6060:6060 \
+            -e DB_HOST=${{ secrets.DB_HOST }} \
+            -e DB_PORT=${{ secrets.DB_PORT }} \
+            -e DB_USER=${{ secrets.DB_USER }} \
+            -e DB_PASS=${{ secrets.DB_PASS }} \
+            -e DB_NAME=${{ secrets.DB_NAME }} \
+            -e NODE_ENV=production \
+            -e JWT_ACCESS_SECRET="${{ secrets.JWT_ACCESS_SECRET }}" \
+            -e JWT_REFRESH_SECRET="${{ secrets.JWT_REFRESH_SECRET }}" \
+            ghcr.io/${{ github.repository_owner }}/pratica-dock:latest
+
+      - name: ✅ Verifica se subiu
+        run: |
+          sleep 5
+          docker ps | grep pratica-dock

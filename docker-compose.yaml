@@ -1,0 +1,33 @@
+name: reservaIoT
+
+# comentários
+
+services:
+  api:
+    build: .
+    container_name: reserva-api
+    ports:
+      - "6060:6060"
+    env_file:
+      - .env
+    depends_on:
+      - postgres
+  
+  postgres:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    container_name: postgres-db
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_USER=${DB_USER}
+      - POSTGRES_PASSWORD=${DB_PASS}
+      - POSTGRES_DB=${DB_NAME}
+
+    # Usando volume
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+# Criando Volume
+volumes:
+  postgres-data:
