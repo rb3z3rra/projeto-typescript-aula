@@ -19,11 +19,11 @@ jobs:
 
       - name: 🏗️ Build da imagem
         run: |
-          docker build -t ghcr.io/${{ github.repository_owner }}/pratica-dock:latest .
+          docker build -t ghcr.io/o-orion/pratica-dock:latest .
 
       - name: 📤 Push pro ghcr.io
         run: |
-          docker push ghcr.io/${{ github.repository_owner }}/pratica-dock:latest
+          docker push ghcr.io/o-orion/pratica-dock:latest
 
       - name: 🛑 Remove container antigo
         run: |
@@ -44,7 +44,7 @@ jobs:
             -e NODE_ENV=production \
             -e JWT_ACCESS_SECRET="${{ secrets.JWT_ACCESS_SECRET }}" \
             -e JWT_REFRESH_SECRET="${{ secrets.JWT_REFRESH_SECRET }}" \
-            ghcr.io/${{ github.repository_owner }}/pratica-dock:latest
+            ghcr.io/o-orion/pratica-dock:latest
 
       - name: ✅ Verifica se subiu
         run: |
