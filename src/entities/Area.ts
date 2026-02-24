@@ -1,6 +1,7 @@
 import { type Relation, Column, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 import { Sensor } from "./Sensor.js";
 
+// teste
 @Entity("area")
 export default class Area {
     @PrimaryGeneratedColumn("uuid")
