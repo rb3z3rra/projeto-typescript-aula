@@ -1,0 +1,58 @@
+name: CI/CD - INDT
+
+on:
+  push:
+    branches:
+      -main
+jobs:
+    build-and-deploy:
+        runs-on: self-hosted
+
+        steps:
+            - name: Checkout do Código
+              uses: actions/checkout@v4
+
+            # - name: Restart Docker
+            #   run: |
+            #       sudo /usr/local/bin/docker-restart.sh
+            #       sleep 10
+
+            - name: Login no Github Container Registry
+              run: |
+                echo "${{ secrets.GHCR_TOKEN }}" | 
+                docker login: ghcr.io -u ${{ github.actor }} --password-stdin
+
+            - name: Parar Container Antigo
+              run: |
+                   docker compose down || true 
+            
+            - name: Build Imagem
+              run: |
+                   docker build -t ghcr.io/rb3z3rra/aula-turma2:latest
+
+            - name: Push pro GHCR
+              run: |
+                   docker push ghcr.io/rb3z3rra/aula-turma2:latest
+
+            - name: Cria o .env na VM
+              run: |
+                   cat > .env << EOF
+                   DB_HOST=postgres
+                   DB_PORT=${{ secrets.DB_PORT }}
+                   DB_USER=${{ secrets.DB_USER }}
+                   DB_PASS=${{ secrets.DB_PASS }}
+                   DB_NAME=${{ secrets.DB_NAME }}
+                   NODE_ENV=production
+                   PORT=6060
+                   JWT_ACCESS_SECRET=${{ secrets.JWT_ACCESS_SECRET }}
+                   JWT_REFRESH_SECRET=${{ secrets.JWT_REFRESH_SECRET }}
+                   EOF
+
+            - name: Subir Compose
+              run: |
+                   docker commpose up -d --build
+
+            - name: Verificar Container
+              run: |
+                   sleep 10
+                   docker compose ps
