@@ -3,7 +3,7 @@ name: CI/CD - INDT
 on:
   push:
     branches:
-      -main
+      - main
 jobs:
     build-and-deploy:
         runs-on: self-hosted
