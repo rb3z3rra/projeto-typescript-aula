@@ -1,5 +1,7 @@
 import { createApp } from "../../src/app.js";
 import { startServer } from "../setup/httpClient.js";
+import { describe, it, expect, beforeAll, afterAll } from "@jest/globals";
+
 
 describe("Integração: GET /health", () => {
   let server: Awaited<ReturnType<typeof startServer>>;

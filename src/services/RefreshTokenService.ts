@@ -13,11 +13,16 @@ export default class RefreshTokenService {
     private repoRefresh = appDataSource.getRepository(RefreshToken);
 
 async refresh(refreshToken: string, userAgent: string, ip: string) {
+  let decoded: any;
 
-  const decoded = jwt.verify(
-    refreshToken,
-    jwtConfig.refresh.secret
-  ) as any;
+  try {
+    decoded = jwt.verify(
+      refreshToken,
+      jwtConfig.refresh.secret
+    ) as any;
+  } catch {
+    throw new AppError(401, "Token inválido");
+  }
 
   const tokenDb = await this.repoRefresh.findOne({
     where: {

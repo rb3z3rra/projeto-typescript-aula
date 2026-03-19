@@ -894,3 +894,165 @@
 {"level":"error","message":"Credências Inválidas - /api/login - ::1 "}
 {"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
 {"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credências Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Credênciais Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"jwt malformed - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido para logout - /api/logout - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credências Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Credênciais Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"jwt malformed - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido para logout - /api/logout - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credências Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Credênciais Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"jwt malformed - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido para logout - /api/logout - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Token inválido para logout - /api/logout - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credências Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credênciais Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"jwt malformed - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"jwt malformed - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"jwt malformed - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credências Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Credênciais Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido para logout - /api/logout - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credências Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Credênciais Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido para logout - /api/logout - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/sensors/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/sensors/undefined - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado! - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credências Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Credênciais Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido para logout - /api/logout - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/sensors/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/sensors/undefined - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado! - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credências Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Credênciais Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido para logout - /api/logout - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/sensors/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/sensors/undefined - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado! - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Sensor com este Serial Number já cadastrado! - /api/sensors - 127.0.0.1 "}
+{"level":"error","message":"Area não foi encontrada! - /api/sensors - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado! - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Sensor com este Serial Number já cadastrado! - /api/sensors - 127.0.0.1 "}
+{"level":"error","message":"Area não foi encontrada! - /api/sensors - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado! - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credências Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Credênciais Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido para logout - /api/logout - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Sensor com este Serial Number já cadastrado! - /api/sensors - 127.0.0.1 "}
+{"level":"error","message":"Area não foi encontrada! - /api/sensors - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado! - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"invalid input syntax for type uuid: \"undefined\" - /api/area/undefined - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Credências Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Credênciais Inválidas - /api/login - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"Token inválido para logout - /api/logout - 127.0.0.1 "}
+{"level":"error","message":"Token inválido - /api/refresh - 127.0.0.1 "}
+{"level":"error","message":"E-mail ou Matrícula já cadastrados - /api/pesquisador - 127.0.0.1 "}
+{"level":"error","message":"Pesquisador não encontrado - /api/pesquisador/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Área não encontrada - /api/area/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Sensor com este Serial Number já cadastrado! - /api/sensors - 127.0.0.1 "}
+{"level":"error","message":"Area não foi encontrada! - /api/sensors - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado! - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}
+{"level":"error","message":"Sensor não encontrado - /api/sensors/00000000-0000-0000-0000-000000000000 - 127.0.0.1 "}

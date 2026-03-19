@@ -1,3 +1,4 @@
+import {  describe,  it,  expect,  beforeAll,  beforeEach,  afterAll,} from "@jest/globals";
 import { createApp } from "../../src/app.js";
 import Pesquisador from "../../src/entities/Pesquisador.js";
 import { appDataSource } from "../../src/database/appDataSource.js";
@@ -7,6 +8,7 @@ import {
   clearDatabase,
   closeTestDatabase,
 } from "../setup/testDatabase.js";
+
 
 describe("Integração: Pesquisador", () => {
   let server: Awaited<ReturnType<typeof startServer>>;
