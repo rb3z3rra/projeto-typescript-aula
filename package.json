@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand",
-  "dev": "nodemon --watch src/**/*.ts --exec tsx src/server.ts",
-  "build": "npx tsc"
-},
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js --runInBand",
+    "dev": "nodemon --watch src/**/*.ts --exec tsx src/server.ts",
+    "test:cov": "jest --coverage",
+    "build": "npx tsc"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
