@@ -22,7 +22,7 @@ app.set('trust proxy', 1);
 
 app.use(rateLimit({
     windowMs: 15 * 60 * 1000,
-    max: 100,
+    max: 1000, // Aumentado para 1000 para permitir execução de testes Cypress sem erro 429
     standardHeaders: true,
     legacyHeaders: false
 }));
