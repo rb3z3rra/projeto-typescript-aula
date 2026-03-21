@@ -18,6 +18,7 @@ npm run dev
 ```
 
 Aguarde aparecer no terminal:
+
 ```
 Conectou com o banco!
 Server is running in port: 6060
@@ -27,11 +28,11 @@ Server is running in port: 6060
 
 Abra o Postman e configure a requisição:
 
-| Campo | Valor |
-|-------|-------|
-| Método | `POST` |
-| URL | `http://localhost:6060/api/register` |
-| Body | `raw` → `JSON` |
+| Campo  | Valor                                |
+| ------ | ------------------------------------ |
+| Método | `POST`                               |
+| URL    | `http://localhost:6060/api/register` |
+| Body   | `raw` → `JSON`                       |
 
 Cole o JSON abaixo no body:
 
@@ -48,6 +49,7 @@ Cole o JSON abaixo no body:
 ```
 
 **Regras importantes:**
+
 - `senha` — mínimo **8 caracteres**
 - `titulacao` — deve ser exatamente uma das opções: `Graduação` | `Especialização` | `Mestrado` | `Doutorado`
 - `dataNascimento` — formato `YYYY-MM-DD`
@@ -70,6 +72,7 @@ Clique em **Send**. Resposta esperada `201 Created`:
 ```
 POST http://localhost:6060/api/login
 ```
+
 ```json
 {
   "email": "joao@email.com",
@@ -78,6 +81,7 @@ POST http://localhost:6060/api/login
 ```
 
 Resposta:
+
 ```json
 {
   "tokens": {
@@ -165,6 +169,7 @@ npm run dev
 ```
 
 Saída esperada:
+
 ```
 Conectou com o banco!
 Server is running in port: 6060
@@ -183,11 +188,13 @@ docker compose up --build -d
 ```
 
 Parar tudo:
+
 ```bash
 docker compose down
 ```
 
 Parar e apagar dados do banco:
+
 ```bash
 docker compose down -v
 ```
@@ -197,9 +204,11 @@ docker compose down -v
 ## Testando com Postman
 
 ### Health Check
+
 ```
 GET http://localhost:6060/health
 ```
+
 Resposta: `{ "status": "ok" }`
 
 ---
@@ -227,6 +236,7 @@ Content-Type: application/json
 > `linhaPesquisa` é opcional.
 
 Resposta `201 Created`:
+
 ```json
 {
   "id": "uuid...",
@@ -254,6 +264,7 @@ Content-Type: application/json
 ```
 
 Resposta `200 OK`:
+
 ```json
 {
   "tokens": {
@@ -289,6 +300,7 @@ Content-Type: application/json
 ```
 
 Resposta:
+
 ```json
 {
   "tokens": {
@@ -321,52 +333,52 @@ Base URL: `http://localhost:6060/api`
 
 ### Pesquisadores
 
-| Método | Rota | Auth | Descrição |
-|--------|------|------|-----------|
-| POST | `/register` | Não | Cadastrar pesquisador |
-| GET | `/pesquisador` | Não | Listar todos |
-| GET | `/pesquisador/:id` | Não | Buscar por ID |
-| PUT | `/pesquisador/:id` | Não | Atualizar |
-| DELETE | `/pesquisador/:id` | Não | Remover |
+| Método | Rota               | Auth | Descrição             |
+| ------ | ------------------ | ---- | --------------------- |
+| POST   | `/register`        | Não  | Cadastrar pesquisador |
+| GET    | `/pesquisador`     | Não  | Listar todos          |
+| GET    | `/pesquisador/:id` | Não  | Buscar por ID         |
+| PUT    | `/pesquisador/:id` | Não  | Atualizar             |
+| DELETE | `/pesquisador/:id` | Não  | Remover               |
 
 ### Autenticação
 
-| Método | Rota | Descrição |
-|--------|------|-----------|
-| POST | `/login` | Login |
-| POST | `/refresh` | Renovar access token |
-| POST | `/logout` | Encerrar sessão |
+| Método | Rota       | Descrição            |
+| ------ | ---------- | -------------------- |
+| POST   | `/login`   | Login                |
+| POST   | `/refresh` | Renovar access token |
+| POST   | `/logout`  | Encerrar sessão      |
 
 ### Áreas
 
-| Método | Rota | Descrição |
-|--------|------|-----------|
-| POST | `/area` | Criar área |
-| GET | `/area` | Listar |
-| GET | `/area/:id` | Buscar por ID |
-| PUT | `/area/:id` | Atualizar |
-| DELETE | `/area/:id` | Remover |
-| GET | `/area/sensor/:id` | Sensores ativos da área |
+| Método | Rota               | Descrição               |
+| ------ | ------------------ | ----------------------- |
+| POST   | `/area`            | Criar área              |
+| GET    | `/area`            | Listar                  |
+| GET    | `/area/:id`        | Buscar por ID           |
+| PUT    | `/area/:id`        | Atualizar               |
+| DELETE | `/area/:id`        | Remover                 |
+| GET    | `/area/sensor/:id` | Sensores ativos da área |
 
 ### Sensores
 
-| Método | Rota | Descrição |
-|--------|------|-----------|
-| POST | `/sensors` | Criar sensor |
-| GET | `/sensors` | Listar |
-| PUT | `/sensors/:id` | Atualizar |
-| DELETE | `/sensors/:id` | Remover |
+| Método | Rota           | Descrição    |
+| ------ | -------------- | ------------ |
+| POST   | `/sensors`     | Criar sensor |
+| GET    | `/sensors`     | Listar       |
+| PUT    | `/sensors/:id` | Atualizar    |
+| DELETE | `/sensors/:id` | Remover      |
 
 ### Leituras
 
-| Método | Rota | Descrição |
-|--------|------|-----------|
-| POST | `/leitura` | Registrar leitura |
-| GET | `/leitura` | Listar |
-| GET | `/leitura/:id` | Buscar por ID |
-| PUT | `/leitura/:id` | Atualizar |
-| DELETE | `/leitura/:id` | Remover |
-| GET | `/leitura/area/:areaId` | Leituras de uma área |
+| Método | Rota                    | Descrição            |
+| ------ | ----------------------- | -------------------- |
+| POST   | `/leitura`              | Registrar leitura    |
+| GET    | `/leitura`              | Listar               |
+| GET    | `/leitura/:id`          | Buscar por ID        |
+| PUT    | `/leitura/:id`          | Atualizar            |
+| DELETE | `/leitura/:id`          | Remover              |
+| GET    | `/leitura/area/:areaId` | Leituras de uma área |
 
 ---
 
@@ -429,14 +441,16 @@ Wokwi (simulador IoT)
 ### Como configurar no Wokwi
 
 1. **Acesse** [wokwi.com](https://wokwi.com) e crie um projeto com ESP32 (ou Arduino com WiFi).
-
 2. **No código do firmware**, configure a URL da API:
+
    ```cpp
    const char* serverUrl = "http://SEU_IP_LOCAL:6060/api/leitura";
    ```
+
    > Use o IP da sua máquina na rede local (ex: `192.168.0.10`), não `localhost`.
 
 3. **O Wokwi envia um POST** para `/api/leitura` com o payload:
+
    ```json
    {
      "valorLeitura": 25.4,
@@ -460,11 +474,11 @@ Wokwi (simulador IoT)
 
 ### Endpoints IoT relevantes
 
-| Rota | Método | Descrição |
-|------|--------|-----------|
-| `POST /api/leitura` | Wokwi envia dados | Registrar leitura |
+| Rota                            | Método            | Descrição            |
+| ------------------------------- | ----------------- | -------------------- |
+| `POST /api/leitura`             | Wokwi envia dados | Registrar leitura    |
 | `GET /api/leitura/area/:areaId` | Frontend consulta | Leituras de uma área |
-| `GET /api/sensors` | Frontend lista | Sensores cadastrados |
+| `GET /api/sensors`              | Frontend lista    | Sensores cadastrados |
 
 > O `sensor_id` usado pelo Wokwi deve ser o mesmo UUID gerado pela API ao cadastrar o sensor.
 
@@ -503,12 +517,14 @@ Content-Type: application/json
 ```
 
 **Campos:**
+
 - `umidade` — número entre `0` e `100` (percentual)
 - `temperatura` — número entre `-50` e `100` (graus Celsius)
 - `sensor_id` — UUID do sensor cadastrado (obrigatório)
 - `dataHora` — qualquer data ISO válida (o sistema substitui pela hora atual automaticamente)
 
 Resposta `201 Created`:
+
 ```json
 {
   "id": "uuid...",
@@ -523,3 +539,11 @@ Resposta `201 Created`:
 Abra o frontend em `http://localhost:4200`, faça login, e acesse o dashboard. Os dados aparecerão nos gráficos da área à qual o sensor pertence.
 
 > Repita o POST várias vezes com valores diferentes para ver a evolução no gráfico.
+
+## Testes Unitário; Integração; Interface
+
+Os testes unitários, integração e de interface usando cypress foram divididos em branches:
+
+1. test/unit;
+2. test/integration;
+3. test/ui
